@@ -38,5 +38,28 @@
 }
 
 .read-the-docs {
-  color: #888;
+  color: #21585c;
+}
+
+.app-container {
+  padding: 2rem;
+  font-family: sans-serif;
+}
+
+.simulator-grid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.simulator-box {
+  flex: 1;
+  min-width: 350px;
+  max-width: 500px;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: #c52b2b;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.05);
 }

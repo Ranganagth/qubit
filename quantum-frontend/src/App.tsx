@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from 'recharts';
+import EntanglementSimulator from './components/EntanglementSimulator';
+import InterferenceSimulator from './components/InterferenceSimulator';
 
 function App() {
   type QubitOutcome = 0 | 1;
@@ -31,6 +33,9 @@ function App() {
         <Tooltip />
         <Bar dataKey="count" fill="#8884d8" />
       </BarChart>
+
+      <EntanglementSimulator />
+      <InterferenceSimulator />
     </div>
   );
 }
