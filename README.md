@@ -176,3 +176,5 @@ This project is open-source and free to use for educational and learning purpose
 ## 📬 Feedback or Contributions?
 
 Feel free to open issues or submit pull requests to enhance the simulator!
+
+# [FAQ](./FAQ.md)
